@@ -1,0 +1,178 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#757575;
+    letter-spacing: 0.06em;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+/* ------------- Header --------------- */
+
+.header-logo{
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+        color: #2196F3;
+}
+.header-logotype{
+    color: #000000;
+}
+.header-link{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+
+        color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: #2196F3;
+}
+
+.header-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: #757575;
+}
+.header-contact:hover,
+.header-contact:focus{
+    color: #2196F3;
+}
+/* ------------- Ефективні рішення для вашого бізнесу--------------- */
+
+.hero{
+    background-color: #2F303A;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.hero-btn{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        align-items: center;
+        text-align: center;
+        
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: #2196F3;
+        cursor:pointer;
+    }
+
+/* --------------- Список переваг ------------------ */
+
+.preferences-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.preferences-text{
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/*--------------- Чим ми займаємося + Наша команда --------------  */
+.title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.team{
+    background-color: #F5F4FA;
+}
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.team-member-prof{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+/*------------------ Footer ------------------- */
+
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+    color: #2196F3;
+}
+.footer-logotype{
+    color:#FFFFFF;
+}
+.footer-address{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+.footer-address:hover,
+.footer-address:focus{
+    color:#2196F3;
+}
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+        
+    color: rgba(255, 255, 255, 0.6);
+}
