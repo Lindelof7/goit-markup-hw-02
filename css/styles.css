@@ -21,14 +21,14 @@ body {
 /* ------------- Header --------------- */
 
 .header-logo{
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
         text-decoration: none;
 
-        color: #2196F3;
+        color: #2196F3
 }
 .header-logotype{
     color: #000000;
@@ -175,4 +175,40 @@ body {
     text-decoration: none;
         
     color: rgba(255, 255, 255, 0.6);
+}
+/* ----------------- Сторінка портфоліо ------------------- */
+
+.portfolio-button{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;    
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+
+        color: #212121;
+        background-color: #F5F4FA;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus{
+    color:#FFFFFF;
+    background-color:#2196F3;
+}
+
+
+.offer-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    color: #212121;
+}
+
+.offer-description{
+        font-size: 16px;
+        line-height: 1.88px;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
 }
