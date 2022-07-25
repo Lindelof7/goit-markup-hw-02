@@ -106,6 +106,9 @@ body {
 
     color: #212121;
 }
+.preferences{
+    list-style: none;
+}
 .preferences-text{
     
     font-size: 14px;
