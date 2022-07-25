@@ -51,6 +51,9 @@ body {
     color: #2196F3;
 }
 
+.header-contacts{
+    list-style: none;
+}
 .header-contact{
     font-weight: 500;
     font-size: 14px;
