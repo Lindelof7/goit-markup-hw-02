@@ -1,9 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color:#757575;
-    letter-spacing: 0.06em;
-}
 
 :root{
     --main-color:#2196F3;
@@ -11,6 +5,13 @@ body {
     --rare-color:#757575;
     --background-color: #F5F4FA;
     --typical-lh: 1.19;
+    --def-letter-spacing: 0.03em;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#757575;
+    letter-spacing: 0.06em;
 }
 
 .visually-hidden {
@@ -34,7 +35,7 @@ body {
         font-weight: 700;
         font-size: 26px;
         line-height: var(--typical-lh);
-        letter-spacing: 0.03em;
+        letter-spacing: var(--def-letter-spacing);
         text-decoration: none;
 
         color: var(--main-color);
@@ -112,7 +113,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
     text-transform: uppercase;
 
     color: #212121;
@@ -124,7 +125,7 @@ body {
     
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
 }
 
 /*--------------- Чим ми займаємося + Наша команда --------------  */
@@ -133,7 +134,7 @@ body {
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
-        letter-spacing: 0.03em;
+        letter-spacing: var(--def-letter-spacing);
     
         color: #212121;
 }
@@ -151,7 +152,7 @@ body {
     font-size: 16px;
     line-height: var(--typical-lh);
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
     
     color: #212121;
 }
@@ -159,7 +160,7 @@ body {
     font-size: 16px;
     line-height: var(--typical-lh);
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
     
     color: var(--rare-color);
 }
@@ -174,7 +175,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: var(--typical-lh);
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
     text-decoration: none;
     
     color: var(--main-color);
@@ -188,7 +189,7 @@ body {
 .footer-address{
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
     text-decoration: none;
     font-style: normal;
 
@@ -201,7 +202,7 @@ body {
 .footer-contact{
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
     text-decoration: none;
     font-style: normal;
         
@@ -221,7 +222,7 @@ body {
     font-size: 16px;
     line-height: 1.62;    
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--def-letter-spacing);
     cursor: pointer;
 
     color: #212121;
@@ -252,7 +253,7 @@ body {
 .offer-description{
         font-size: 16px;
         line-height: 1.88px;
-        letter-spacing: 0.03em;
+        letter-spacing: var(--def-letter-spacing);
     
         color: var(--rare-color);
 }
