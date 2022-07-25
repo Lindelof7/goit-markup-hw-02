@@ -193,6 +193,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
         
     color: rgba(255, 255, 255, 0.6);
 }
@@ -205,6 +206,7 @@ body {
     list-style: none;
 }
 .portfolio-button{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;    
