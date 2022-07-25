@@ -181,6 +181,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
 
     color: #FFFFFF;
 }
@@ -225,7 +226,12 @@ body {
 }
 
 
+.offers-list{
+    list-style:none;
+}
+
 .offer-name{
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
