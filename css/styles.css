@@ -126,6 +126,12 @@ body {
     
         color: #212121;
 }
+.what-we-do-img{
+    list-style: none;
+}
+.team-list{
+    list-style: none;
+}
 .team{
     background-color: #F5F4FA;
 }
@@ -164,6 +170,9 @@ body {
 }
 .footer-logotype{
     color:#FFFFFF;
+}
+.footer-items{
+    list-style: none;
 }
 .footer-address{
     font-size: 14px;
